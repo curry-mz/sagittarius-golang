@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"code.cd.local/sagittarius/sagittarius-golang/logger"
+	"github.com/curry-mz/sagittarius-golang/logger"
 
 	"github.com/pkg/errors"
 )

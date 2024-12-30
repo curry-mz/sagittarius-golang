@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
-	gCtx "code.cd.local/sagittarius/sagittarius-golang/context"
-	"code.cd.local/sagittarius/sagittarius-golang/cores/registry"
+	gCtx "github.com/curry-mz/sagittarius-golang/context"
+	"github.com/curry-mz/sagittarius-golang/cores/registry"
 
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"

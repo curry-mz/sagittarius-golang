@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"code.cd.local/sagittarius/sagittarius-golang/cores/logger"
+	"github.com/curry-mz/sagittarius-golang/cores/logger"
 
 	"github.com/apache/rocketmq-client-go/v2/primitive"
 )

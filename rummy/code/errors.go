@@ -1,7 +1,7 @@
 package code
 
 import (
-	"code.cd.local/sagittarius/sagittarius-golang/cores/errors"
+	"github.com/curry-mz/sagittarius-golang/cores/errors"
 )
 
 var (

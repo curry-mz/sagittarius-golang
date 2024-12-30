@@ -5,20 +5,20 @@ import (
 	"os"
 	"strings"
 
-	"code.cd.local/sagittarius/sagittarius-golang/app/config"
-	"code.cd.local/sagittarius/sagittarius-golang/consul"
-	"code.cd.local/sagittarius/sagittarius-golang/cores/logger"
-	"code.cd.local/sagittarius/sagittarius-golang/cores/metric"
-	"code.cd.local/sagittarius/sagittarius-golang/cores/metric/local"
-	"code.cd.local/sagittarius/sagittarius-golang/cores/metric/pprof"
-	"code.cd.local/sagittarius/sagittarius-golang/cores/registry"
-	cConsul "code.cd.local/sagittarius/sagittarius-golang/cores/registry/consul"
-	cEtcd "code.cd.local/sagittarius/sagittarius-golang/cores/registry/etcd"
-	"code.cd.local/sagittarius/sagittarius-golang/cores/tracing"
-	"code.cd.local/sagittarius/sagittarius-golang/cores/tracing/jaeger"
-	"code.cd.local/sagittarius/sagittarius-golang/env"
-	"code.cd.local/sagittarius/sagittarius-golang/etcd"
-	gLog "code.cd.local/sagittarius/sagittarius-golang/logger"
+	"github.com/curry-mz/sagittarius-golang/app/config"
+	"github.com/curry-mz/sagittarius-golang/consul"
+	"github.com/curry-mz/sagittarius-golang/cores/logger"
+	"github.com/curry-mz/sagittarius-golang/cores/metric"
+	"github.com/curry-mz/sagittarius-golang/cores/metric/local"
+	"github.com/curry-mz/sagittarius-golang/cores/metric/pprof"
+	"github.com/curry-mz/sagittarius-golang/cores/registry"
+	cConsul "github.com/curry-mz/sagittarius-golang/cores/registry/consul"
+	cEtcd "github.com/curry-mz/sagittarius-golang/cores/registry/etcd"
+	"github.com/curry-mz/sagittarius-golang/cores/tracing"
+	"github.com/curry-mz/sagittarius-golang/cores/tracing/jaeger"
+	"github.com/curry-mz/sagittarius-golang/env"
+	"github.com/curry-mz/sagittarius-golang/etcd"
+	gLog "github.com/curry-mz/sagittarius-golang/logger"
 
 	"github.com/getsentry/sentry-go"
 )
@@ -93,7 +93,7 @@ func initDiscovery(ctx context.Context, cfg *config.ServiceConfig) registry.Disc
 			return nil
 		}
 		addr = strings.TrimRight(addr, "/")
-		
+
 		var clientOpts []consul.Option
 		c := consul.NewConsulClient(addr, clientOpts...)
 		// 生成服务发现

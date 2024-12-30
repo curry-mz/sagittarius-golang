@@ -1,4 +1,4 @@
-module code.cd.local/sagittarius/sagittarius-golang
+module github.com/curry-mz/sagittarius-golang
 
 go 1.19
 

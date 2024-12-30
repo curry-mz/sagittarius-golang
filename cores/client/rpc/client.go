@@ -5,9 +5,9 @@ import (
 	"crypto/tls"
 	"fmt"
 
-	"code.cd.local/sagittarius/sagittarius-golang/cores/client/rpc/resolver/direct"
-	"code.cd.local/sagittarius/sagittarius-golang/cores/client/rpc/resolver/discovery"
-	"code.cd.local/sagittarius/sagittarius-golang/cores/registry"
+	"github.com/curry-mz/sagittarius-golang/cores/client/rpc/resolver/direct"
+	"github.com/curry-mz/sagittarius-golang/cores/client/rpc/resolver/discovery"
+	"github.com/curry-mz/sagittarius-golang/cores/registry"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/balancer/roundrobin"

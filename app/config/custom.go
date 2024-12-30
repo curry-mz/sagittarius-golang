@@ -6,9 +6,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"code.cd.local/sagittarius/sagittarius-golang/env"
-	"code.cd.local/sagittarius/sagittarius-golang/logger"
-	"code.cd.local/sagittarius/sagittarius-golang/nacos"
+	"github.com/curry-mz/sagittarius-golang/env"
+	"github.com/curry-mz/sagittarius-golang/logger"
+	"github.com/curry-mz/sagittarius-golang/nacos"
 )
 
 type Custom struct {

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"code.cd.local/sagittarius/sagittarius-golang/cores/registry"
+	"github.com/curry-mz/sagittarius-golang/cores/registry"
 
 	"google.golang.org/grpc/attributes"
 	"google.golang.org/grpc/resolver"

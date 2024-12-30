@@ -1,10 +1,10 @@
 package mysql
 
 import (
-	"code.cd.local/sagittarius/sagittarius-golang/cores/logger"
 	"context"
 	"database/sql"
 	"errors"
+	"github.com/curry-mz/sagittarius-golang/cores/logger"
 	_ "github.com/lib/pq"
 	"gorm.io/driver/postgres"
 	"time"

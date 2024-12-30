@@ -4,8 +4,8 @@ import (
 	"context"
 	"math/rand"
 
-	"code.cd.local/sagittarius/sagittarius-golang/cores/client/http/balancer"
-	"code.cd.local/sagittarius/sagittarius-golang/cores/registry"
+	"github.com/curry-mz/sagittarius-golang/cores/client/http/balancer"
+	"github.com/curry-mz/sagittarius-golang/cores/registry"
 
 	"github.com/pkg/errors"
 )

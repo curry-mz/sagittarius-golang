@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"code.cd.local/sagittarius/sagittarius-golang/cores/crypto"
+	"github.com/curry-mz/sagittarius-golang/cores/crypto"
 
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"

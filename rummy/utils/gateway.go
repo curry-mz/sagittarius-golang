@@ -3,8 +3,8 @@ package utils
 import (
 	"code.cd.local/games-go/mini/rummy.busi/client/gateway"
 	"code.cd.local/games-go/mini/rummy.busi/conf"
-	"code.cd.local/sagittarius/sagittarius-golang/logger"
 	"context"
+	"github.com/curry-mz/sagittarius-golang/logger"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	"code.cd.local/sagittarius/sagittarius-golang/cores/registry"
-	"code.cd.local/sagittarius/sagittarius-golang/env"
+	"github.com/curry-mz/sagittarius-golang/cores/registry"
+	"github.com/curry-mz/sagittarius-golang/env"
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 )

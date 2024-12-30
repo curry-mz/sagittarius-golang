@@ -11,9 +11,9 @@ import (
 	"code.cd.local/games-go/mini/rummy.busi/dao/model"
 	"code.cd.local/games-go/mini/rummy.busi/utils"
 
-	"code.cd.local/sagittarius/sagittarius-golang/app/proxy"
-	"code.cd.local/sagittarius/sagittarius-golang/logger"
-	"code.cd.local/sagittarius/sagittarius-golang/mysql"
+	"github.com/curry-mz/sagittarius-golang/app/proxy"
+	"github.com/curry-mz/sagittarius-golang/logger"
+	"github.com/curry-mz/sagittarius-golang/mysql"
 
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"

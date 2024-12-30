@@ -6,7 +6,7 @@ import (
 
 	socketio "github.com/googollee/go-socket.io"
 
-	gErrors "code.cd.local/sagittarius/sagittarius-golang/cores/errors"
+	gErrors "github.com/curry-mz/sagittarius-golang/cores/errors"
 )
 
 type core func(*Context)

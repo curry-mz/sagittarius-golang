@@ -9,7 +9,7 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 
-	gCtx "code.cd.local/sagittarius/sagittarius-golang/context"
+	gCtx "github.com/curry-mz/sagittarius-golang/context"
 )
 
 ///////////////////////////////

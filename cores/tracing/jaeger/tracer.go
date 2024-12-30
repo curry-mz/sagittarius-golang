@@ -3,7 +3,7 @@ package jaeger
 import (
 	"io"
 
-	"code.cd.local/sagittarius/sagittarius-golang/cores/tracing"
+	"github.com/curry-mz/sagittarius-golang/cores/tracing"
 
 	"github.com/opentracing/opentracing-go"
 	"github.com/uber/jaeger-client-go"

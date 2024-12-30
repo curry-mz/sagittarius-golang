@@ -3,7 +3,7 @@ package discovery
 import (
 	"context"
 
-	"code.cd.local/sagittarius/sagittarius-golang/cores/registry"
+	"github.com/curry-mz/sagittarius-golang/cores/registry"
 
 	"google.golang.org/grpc/resolver"
 )

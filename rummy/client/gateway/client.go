@@ -5,9 +5,9 @@ import (
 	"fmt"
 	netHttp "net/http"
 
-	"code.cd.local/sagittarius/sagittarius-golang/app/proxy"
-	"code.cd.local/sagittarius/sagittarius-golang/cores/client/http"
-	gErrors "code.cd.local/sagittarius/sagittarius-golang/cores/errors"
+	"github.com/curry-mz/sagittarius-golang/app/proxy"
+	"github.com/curry-mz/sagittarius-golang/cores/client/http"
+	gErrors "github.com/curry-mz/sagittarius-golang/cores/errors"
 
 	"github.com/pkg/errors"
 )

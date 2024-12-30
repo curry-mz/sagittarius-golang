@@ -3,7 +3,7 @@ module code.cd.local/games-go/mini/rummy.busi
 go 1.19
 
 require (
-	code.cd.local/sagittarius/sagittarius-golang v0.0.0-20240515104105-a23abc0f72e8
+	github.com/curry-mz/sagittarius-golang v0.0.0-20240515104105-a23abc0f72e8
 	github.com/bwmarrin/snowflake v0.3.0
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/pkg/errors v0.9.1

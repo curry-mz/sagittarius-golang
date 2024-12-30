@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"code.cd.local/sagittarius/sagittarius-golang/mq/kafka/core"
+	"github.com/curry-mz/sagittarius-golang/mq/kafka/core"
 
 	"github.com/IBM/sarama"
 )

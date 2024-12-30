@@ -6,9 +6,9 @@ import (
 	"code.cd.local/games-go/mini/rummy.busi/conf"
 	"code.cd.local/games-go/mini/rummy.busi/server"
 
-	"code.cd.local/sagittarius/sagittarius-golang/app"
-	"code.cd.local/sagittarius/sagittarius-golang/app/config"
-	"code.cd.local/sagittarius/sagittarius-golang/env"
+	"github.com/curry-mz/sagittarius-golang/app"
+	"github.com/curry-mz/sagittarius-golang/app/config"
+	"github.com/curry-mz/sagittarius-golang/env"
 )
 
 const (

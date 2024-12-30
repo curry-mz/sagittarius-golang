@@ -9,7 +9,7 @@ import (
 	"code.cd.local/games-go/mini/rummy.busi/dao/model"
 	sudRds "code.cd.local/games-go/mini/rummy.busi/dao/redis"
 
-	"code.cd.local/sagittarius/sagittarius-golang/redis"
+	"github.com/curry-mz/sagittarius-golang/redis"
 )
 
 type SudDao struct {

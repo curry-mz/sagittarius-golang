@@ -10,7 +10,7 @@ import (
 
 	"github.com/IBM/sarama"
 
-	"code.cd.local/sagittarius/sagittarius-golang/mq/kafka/core"
+	"github.com/curry-mz/sagittarius-golang/mq/kafka/core"
 )
 
 type ConsumerOption func(*consumerOption)

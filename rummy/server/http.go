@@ -5,8 +5,8 @@ import (
 
 	"code.cd.local/games-go/mini/rummy.busi/service/manager"
 
-	"code.cd.local/sagittarius/sagittarius-golang/app/server"
-	"code.cd.local/sagittarius/sagittarius-golang/cores/server/http"
+	"github.com/curry-mz/sagittarius-golang/app/server"
+	"github.com/curry-mz/sagittarius-golang/cores/server/http"
 )
 
 func NewServer() *http.Engine {

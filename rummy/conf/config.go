@@ -3,10 +3,10 @@ package conf
 import (
 	dkafka "code.cd.local/games-go/mini/rummy.busi/client/kafka"
 	"code.cd.local/games-go/mini/rummy.busi/global"
-	"code.cd.local/sagittarius/sagittarius-golang/app"
-	"code.cd.local/sagittarius/sagittarius-golang/app/config"
-	"code.cd.local/sagittarius/sagittarius-golang/logger"
 	"context"
+	"github.com/curry-mz/sagittarius-golang/app"
+	"github.com/curry-mz/sagittarius-golang/app/config"
+	"github.com/curry-mz/sagittarius-golang/logger"
 )
 
 type Config struct {

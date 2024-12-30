@@ -3,7 +3,7 @@ package nacos
 import (
 	"context"
 
-	"code.cd.local/sagittarius/sagittarius-golang/cores/logger"
+	"github.com/curry-mz/sagittarius-golang/cores/logger"
 )
 
 type Logger struct {

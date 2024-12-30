@@ -11,8 +11,8 @@ import (
 	"github.com/opentracing/opentracing-go/ext"
 	"github.com/pkg/errors"
 
-	gCtx "code.cd.local/sagittarius/sagittarius-golang/context"
-	"code.cd.local/sagittarius/sagittarius-golang/cores/logger"
+	gCtx "github.com/curry-mz/sagittarius-golang/context"
+	"github.com/curry-mz/sagittarius-golang/cores/logger"
 )
 
 func PanicHandler(lgr *logger.Logger) core {

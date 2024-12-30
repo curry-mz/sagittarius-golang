@@ -8,8 +8,8 @@ import (
 
 	"github.com/hashicorp/consul/api"
 
-	"code.cd.local/sagittarius/sagittarius-golang/cores/registry"
-	"code.cd.local/sagittarius/sagittarius-golang/env"
+	"github.com/curry-mz/sagittarius-golang/cores/registry"
+	"github.com/curry-mz/sagittarius-golang/env"
 )
 
 type watcher struct {

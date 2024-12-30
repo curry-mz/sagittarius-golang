@@ -244,7 +244,7 @@ accessRequestDisable - access日志禁止输出request信息 默认false
 ```go
 package conf
 
-import "code.cd.local/sagittarius/sagittarius-golang/app"
+import "github.com/curry-mz/sagittarius-golang/app"
 
 type Config struct {
 	Groups []struct {
@@ -385,9 +385,9 @@ import (
 	"code.cd.local/games-go/racing/racing.busi/conf"
 	"code.cd.local/games-go/racing/racing.busi/server"
 
-	"code.cd.local/sagittarius/sagittarius-golang/app"
-	"code.cd.local/sagittarius/sagittarius-golang/app/config"
-	"code.cd.local/sagittarius/sagittarius-golang/env"
+	"github.com/curry-mz/sagittarius-golang/app"
+	"github.com/curry-mz/sagittarius-golang/app/config"
+	"github.com/curry-mz/sagittarius-golang/env"
 )
 
 var (
@@ -430,10 +430,10 @@ import (
 	"fmt"
 	netHttp "net/http"
 
-	"code.cd.local/sagittarius/sagittarius-golang/app/proxy"
-	"code.cd.local/sagittarius/sagittarius-golang/cores/client/http"
-	gErrors "code.cd.local/sagittarius/sagittarius-golang/cores/errors"
-	"code.cd.local/sagittarius/sagittarius-golang/logger"
+	"github.com/curry-mz/sagittarius-golang/app/proxy"
+	"github.com/curry-mz/sagittarius-golang/cores/client/http"
+	gErrors "github.com/curry-mz/sagittarius-golang/cores/errors"
+	"github.com/curry-mz/sagittarius-golang/logger"
 
 	"github.com/pkg/errors"
 )
@@ -487,8 +487,8 @@ func MessagePush(ctx context.Context, req *RequestPushMessage) error {
 package db
 
 import (
-	"code.cd.local/sagittarius/sagittarius-golang/app/proxy"
-	"code.cd.local/sagittarius/sagittarius-golang/mysql"
+	"github.com/curry-mz/sagittarius-golang/app/proxy"
+	"github.com/curry-mz/sagittarius-golang/mysql"
 )
 
 const dbName = "racing"
@@ -511,8 +511,8 @@ func New() (*RacingDB, error) {
 package redis
 
 import (
-	"code.cd.local/sagittarius/sagittarius-golang/app/proxy"
-	"code.cd.local/sagittarius/sagittarius-golang/redis"
+	"github.com/curry-mz/sagittarius-golang/app/proxy"
+	"github.com/curry-mz/sagittarius-golang/redis"
 )
 
 const redisName = "racing"

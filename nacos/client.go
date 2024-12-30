@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"code.cd.local/sagittarius/sagittarius-golang/cores/logger"
+	"github.com/curry-mz/sagittarius-golang/cores/logger"
 
 	"github.com/nacos-group/nacos-sdk-go/clients"
 	"github.com/nacos-group/nacos-sdk-go/clients/config_client"

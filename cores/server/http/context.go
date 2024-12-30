@@ -6,7 +6,7 @@ import (
 	"encoding/xml"
 	"net/http"
 
-	gErrors "code.cd.local/sagittarius/sagittarius-golang/cores/errors"
+	gErrors "github.com/curry-mz/sagittarius-golang/cores/errors"
 
 	"github.com/go-playground/form/v4"
 	"github.com/pkg/errors"

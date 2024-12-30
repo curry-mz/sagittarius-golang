@@ -1,8 +1,8 @@
 package game
 
 import (
-	"code.cd.local/sagittarius/sagittarius-golang/logger"
 	"context"
+	"github.com/curry-mz/sagittarius-golang/logger"
 	"landlord/common"
 	"sync"
 	"time"

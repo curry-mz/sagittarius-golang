@@ -10,8 +10,8 @@ import (
 
 	"code.cd.local/games-go/mini/rummy.busi/dao/model"
 
-	"code.cd.local/sagittarius/sagittarius-golang/app/proxy"
-	"code.cd.local/sagittarius/sagittarius-golang/redis"
+	"github.com/curry-mz/sagittarius-golang/app/proxy"
+	"github.com/curry-mz/sagittarius-golang/redis"
 
 	redisgo "github.com/go-redis/redis/v8"
 )

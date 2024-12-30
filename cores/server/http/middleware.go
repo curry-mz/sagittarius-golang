@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	gCtx "code.cd.local/sagittarius/sagittarius-golang/context"
-	"code.cd.local/sagittarius/sagittarius-golang/cores/logger"
+	gCtx "github.com/curry-mz/sagittarius-golang/context"
+	"github.com/curry-mz/sagittarius-golang/cores/logger"
 
 	"github.com/getsentry/sentry-go"
 	"github.com/opentracing/opentracing-go"

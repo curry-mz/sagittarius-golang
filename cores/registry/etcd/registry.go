@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"code.cd.local/sagittarius/sagittarius-golang/cores/registry"
+	"github.com/curry-mz/sagittarius-golang/cores/registry"
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 )

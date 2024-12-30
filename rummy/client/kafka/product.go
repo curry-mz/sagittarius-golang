@@ -1,10 +1,10 @@
 package kafka
 
 import (
-	"code.cd.local/sagittarius/sagittarius-golang/app/proxy"
-	"code.cd.local/sagittarius/sagittarius-golang/logger"
-	"code.cd.local/sagittarius/sagittarius-golang/mq/kafka"
 	"context"
+	"github.com/curry-mz/sagittarius-golang/app/proxy"
+	"github.com/curry-mz/sagittarius-golang/logger"
+	"github.com/curry-mz/sagittarius-golang/mq/kafka"
 )
 
 const Name = "zues.admin"

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	gCtx "code.cd.local/sagittarius/sagittarius-golang/context"
-	"code.cd.local/sagittarius/sagittarius-golang/mq/rocket/metadata"
+	gCtx "github.com/curry-mz/sagittarius-golang/context"
+	"github.com/curry-mz/sagittarius-golang/mq/rocket/metadata"
 
 	"github.com/apache/rocketmq-client-go/v2"
 	"github.com/apache/rocketmq-client-go/v2/primitive"

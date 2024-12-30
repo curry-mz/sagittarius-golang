@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	log "code.cd.local/sagittarius/sagittarius-golang/cores/logger"
+	log "github.com/curry-mz/sagittarius-golang/cores/logger"
 
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

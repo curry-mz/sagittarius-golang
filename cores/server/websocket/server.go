@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"code.cd.local/sagittarius/sagittarius-golang/cores/logger"
+	"github.com/curry-mz/sagittarius-golang/cores/logger"
 
 	"github.com/gorilla/websocket"
 )
