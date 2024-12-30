@@ -1,0 +1,52 @@
+2024-11-15 16:01:09.844 /nacos-sdk-go@v1.1.4/clients/config_client/config_client.go:112 [INFO] logDir:</Users/project/rummy/log>   cacheDir:</Users/project/rummy/cache> 
+2024-11-15 16:01:10.411 /nacos-sdk-go@v1.1.4/common/logger/logging.go:51 [ERROR] api</v1/cs/configs>,method:<GET>, params:<{"accessToken":"eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJnbV91c2VyIiwiZXhwIjoxNzMxNjkzNjcwfQ.1eBCI5qlMZJHuxYW-j78Ahw5j2iS2PTLxCI2ds8KhbJLxsjJCz7otUkeXHb8OeUv","dataId":"mini.rummy.busi.config","group":"testing","tenant":"games-cd","type":"json"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+> 
+2024-11-15 16:01:10.610 /nacos-sdk-go@v1.1.4/common/logger/logging.go:51 [ERROR] api</v1/cs/configs>,method:<GET>, params:<{"accessToken":"eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJnbV91c2VyIiwiZXhwIjoxNzMxNjkzNjcwfQ.1eBCI5qlMZJHuxYW-j78Ahw5j2iS2PTLxCI2ds8KhbJLxsjJCz7otUkeXHb8OeUv","dataId":"mini.rummy.busi.config","group":"testing","tenant":"games-cd","type":"json"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+> 
+2024-11-15 16:01:10.804 /nacos-sdk-go@v1.1.4/common/logger/logging.go:51 [ERROR] api</v1/cs/configs>,method:<GET>, params:<{"accessToken":"eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJnbV91c2VyIiwiZXhwIjoxNzMxNjkzNjcwfQ.1eBCI5qlMZJHuxYW-j78Ahw5j2iS2PTLxCI2ds8KhbJLxsjJCz7otUkeXHb8OeUv","dataId":"mini.rummy.busi.config","group":"testing","tenant":"games-cd","type":"json"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+> 
+2024-11-15 16:01:10.804 /nacos-sdk-go@v1.1.4/common/logger/logging.go:51 [ERROR] get config from server error:[404] config data not exist
+  
+2024-11-15 16:01:10.804 /nacos-sdk-go@v1.1.4/common/logger/logging.go:46 [WARN] [client.GetConfig] config not found, dataId: mini.rummy.busi.config, group: testing, namespaceId: games-cd. 
+2024-11-15 16:01:16.028 /nacos-sdk-go@v1.1.4/clients/config_client/config_client.go:112 [INFO] logDir:</Users/project/rummy/log>   cacheDir:</Users/project/rummy/cache> 
+2024-11-15 16:01:16.623 /nacos-sdk-go@v1.1.4/common/logger/logging.go:51 [ERROR] api</v1/cs/configs>,method:<GET>, params:<{"accessToken":"eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJnbV91c2VyIiwiZXhwIjoxNzMxNjkzNjc2fQ.RAIs8s535_TpeTrnb5-IeRNQJbtk-wlVP6CdsXGAwBW3v_hsbbm_TAFWSGn08yUB","dataId":"mini.rummy.busi.config","group":"testing","tenant":"games-cd","type":"json"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+> 
+2024-11-15 16:01:16.784 /nacos-sdk-go@v1.1.4/common/logger/logging.go:51 [ERROR] api</v1/cs/configs>,method:<GET>, params:<{"accessToken":"eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJnbV91c2VyIiwiZXhwIjoxNzMxNjkzNjc2fQ.RAIs8s535_TpeTrnb5-IeRNQJbtk-wlVP6CdsXGAwBW3v_hsbbm_TAFWSGn08yUB","dataId":"mini.rummy.busi.config","group":"testing","tenant":"games-cd","type":"json"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+> 
+2024-11-15 16:01:16.942 /nacos-sdk-go@v1.1.4/common/logger/logging.go:51 [ERROR] api</v1/cs/configs>,method:<GET>, params:<{"accessToken":"eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJnbV91c2VyIiwiZXhwIjoxNzMxNjkzNjc2fQ.RAIs8s535_TpeTrnb5-IeRNQJbtk-wlVP6CdsXGAwBW3v_hsbbm_TAFWSGn08yUB","dataId":"mini.rummy.busi.config","group":"testing","tenant":"games-cd","type":"json"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+> 
+2024-11-15 16:01:16.942 /nacos-sdk-go@v1.1.4/common/logger/logging.go:51 [ERROR] get config from server error:[404] config data not exist
+  
+2024-11-15 16:01:16.943 /nacos-sdk-go@v1.1.4/common/logger/logging.go:46 [WARN] [client.GetConfig] config not found, dataId: mini.rummy.busi.config, group: testing, namespaceId: games-cd. 
+2024-11-15 16:05:49.519 /nacos-sdk-go@v1.1.4/clients/config_client/config_client.go:112 [INFO] logDir:</Users/project/rummy/log>   cacheDir:</Users/project/rummy/cache> 
+2024-11-15 16:05:50.241 /nacos-sdk-go@v1.1.4/common/logger/logging.go:51 [ERROR] api</v1/cs/configs>,method:<GET>, params:<{"accessToken":"eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJnbV91c2VyIiwiZXhwIjoxNzMxNjkzOTUwfQ.D_wQJtQDD6BaMKhHwkvdDNORKraJWkkj5d6ShfcF5mqvJp5_AcHD0tguPpw2_R9u","dataId":"mini.rummy.busi.config","group":"testing","tenant":"games-cd","type":"json"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+> 
+2024-11-15 16:05:50.386 /nacos-sdk-go@v1.1.4/common/logger/logging.go:51 [ERROR] api</v1/cs/configs>,method:<GET>, params:<{"accessToken":"eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJnbV91c2VyIiwiZXhwIjoxNzMxNjkzOTUwfQ.D_wQJtQDD6BaMKhHwkvdDNORKraJWkkj5d6ShfcF5mqvJp5_AcHD0tguPpw2_R9u","dataId":"mini.rummy.busi.config","group":"testing","tenant":"games-cd","type":"json"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+> 
+2024-11-15 16:05:50.538 /nacos-sdk-go@v1.1.4/common/logger/logging.go:51 [ERROR] api</v1/cs/configs>,method:<GET>, params:<{"accessToken":"eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJnbV91c2VyIiwiZXhwIjoxNzMxNjkzOTUwfQ.D_wQJtQDD6BaMKhHwkvdDNORKraJWkkj5d6ShfcF5mqvJp5_AcHD0tguPpw2_R9u","dataId":"mini.rummy.busi.config","group":"testing","tenant":"games-cd","type":"json"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+> 
+2024-11-15 16:05:50.538 /nacos-sdk-go@v1.1.4/common/logger/logging.go:51 [ERROR] get config from server error:[404] config data not exist
+  
+2024-11-15 16:05:50.539 /nacos-sdk-go@v1.1.4/common/logger/logging.go:46 [WARN] [client.GetConfig] config not found, dataId: mini.rummy.busi.config, group: testing, namespaceId: games-cd. 
+2024-11-15 16:10:57.846 /nacos-sdk-go@v1.1.4/clients/config_client/config_client.go:112 [INFO] logDir:</Users/project/rummy/log>   cacheDir:</Users/project/rummy/cache> 
+2024-11-15 16:10:58.412 /nacos-sdk-go@v1.1.4/common/logger/logging.go:51 [ERROR] api</v1/cs/configs>,method:<GET>, params:<{"accessToken":"eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJnbV91c2VyIiwiZXhwIjoxNzMxNjk0MjU4fQ.Np_mHobBz9HBkLBSl5Zd14OmdLgPGIVy3h6jbwZXKffyq0e1mWNNf-L7-VLuCfCV","dataId":"mini.rummy.busi.config","group":"testing","tenant":"games-cd","type":"json"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+> 
+2024-11-15 16:10:58.567 /nacos-sdk-go@v1.1.4/common/logger/logging.go:51 [ERROR] api</v1/cs/configs>,method:<GET>, params:<{"accessToken":"eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJnbV91c2VyIiwiZXhwIjoxNzMxNjk0MjU4fQ.Np_mHobBz9HBkLBSl5Zd14OmdLgPGIVy3h6jbwZXKffyq0e1mWNNf-L7-VLuCfCV","dataId":"mini.rummy.busi.config","group":"testing","tenant":"games-cd","type":"json"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+> 
+2024-11-15 16:10:58.738 /nacos-sdk-go@v1.1.4/common/logger/logging.go:51 [ERROR] api</v1/cs/configs>,method:<GET>, params:<{"accessToken":"eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJnbV91c2VyIiwiZXhwIjoxNzMxNjk0MjU4fQ.Np_mHobBz9HBkLBSl5Zd14OmdLgPGIVy3h6jbwZXKffyq0e1mWNNf-L7-VLuCfCV","dataId":"mini.rummy.busi.config","group":"testing","tenant":"games-cd","type":"json"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+> 
+2024-11-15 16:10:58.739 /nacos-sdk-go@v1.1.4/common/logger/logging.go:51 [ERROR] get config from server error:[404] config data not exist
+  
+2024-11-15 16:10:58.739 /nacos-sdk-go@v1.1.4/common/logger/logging.go:46 [WARN] [client.GetConfig] config not found, dataId: mini.rummy.busi.config, group: testing, namespaceId: games-cd. 

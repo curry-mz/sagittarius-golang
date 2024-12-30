@@ -1,0 +1,67 @@
+syntax = "proto3";
+option go_package = "./";
+
+package proto;
+
+// 倒计时信息
+
+
+
+
+//////////////////////////////////
+// 登录
+//////////////////////////////////
+message ReqLogin {
+  int64 userId = 1; // 用户ID
+}
+
+message AckLogin {
+  int64 userId       = 1;//用户ID
+  int32 playingTable = 2;//游戏中的牌桌
+}
+
+
+
+//////////////////////////////////
+// 获取牌桌列表
+//////////////////////////////////
+message Room {
+  int32 tableId = 1;//(required)牌桌ID
+  string roomName = 2;
+  int64 minAccount = 3;
+  int64 maxAccount = 4;
+  int64 baseScore = 5;
+  int64 fee =6;
+
+}
+
+message ReqRooms{
+  int64  userId = 1;//(required)
+  string ptCode = 2;
+  string currency = 3;
+}
+
+message AckRooms {
+  int64 userId   		 		= 1;//(required)
+  repeated Room rooms = 2;
+}
+
+message Rank {
+  int64 rank = 1;
+  int64 userId = 2;
+  string channelCode = 3;
+  string player = 4;
+  string nickname = 5;
+  string avatar = 6;
+  int64 score = 7;
+}
+message ReqRanks {
+  int64  userId = 1;//(required)
+  string channelCode = 2;
+  string currency = 3;
+}
+message AckRanks {
+  int64 userId = 1;//(required)
+  string channelCode = 2;
+  repeated Rank Ranks = 3;
+}
