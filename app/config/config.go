@@ -39,6 +39,12 @@ type LogConfig struct {
 	// 日志格式
 	Format string `yaml:"format" json:"format" xml:"format"`
 }
+type KkplusConfig struct {
+	// 服务发现方式 目前只有etcd
+	Host      string `yaml:"host" json:"host" xml:"host"`
+	MerNo     string `yaml:"mer_no" json:"mer_no" xml:"mer_no"`
+	NotifyUrl string `yaml:"notify_url" json:"notify_url" xml:"notify_url"`
+}
 
 // ServerConfig 启动服务配置
 type ServerConfig struct {
@@ -249,6 +255,8 @@ type ServiceConfig struct {
 	KafkaProducers []*KafkaProducerConfig `yaml:"kafkaProducers" json:"kafkaProducers" xml:"kafkaProducers"`
 	// kafka consumer配置
 	KafkaConsumers []*KafkaConsumerConfig `yaml:"kafkaConsumers" json:"kafkaConsumers" xml:"kafkaConsumers"`
+	//kkplus
+	Kkplus *KkplusConfig `yaml:"kkplus" json:"kkplus" xml:"kkplus"`
 }
 
 func (c *ServiceConfig) GetDatabase(name string) *DatabaseConfig {
