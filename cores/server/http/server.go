@@ -145,7 +145,7 @@ func (e *Engine) handleHTTPRequest(c *Context) {
 		}
 		current := e.tree[method]
 		for _, s := range ns {
-			if _, has := current.children[s]; !has {
+			if _, has := current.children[s]; !has && method != "OPTIONS" {
 				_ = c.HttpError(404, "page not found")
 				return
 			}
