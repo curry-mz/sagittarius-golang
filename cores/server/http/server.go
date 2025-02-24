@@ -127,11 +127,13 @@ func (e *Engine) Stop(ctx context.Context) error {
 func (e *Engine) handleHTTPRequest(c *Context) {
 	method := c.r.Method
 	path := c.r.URL.Path
-	if method != "OPTIONS" {
-		if e.tree[method] == nil {
+	if method == "OPTIONS" {
+		c.Writer().WriteHeader(http.StatusOK)
+		return
+	}
+	if e.tree[method] == nil {
 		_ = c.HttpError(404, "page not found")
 		return
-		}
 	}
 	root := e.tree[method]
 	if len(path) == 1 && path[0] == '/' {
