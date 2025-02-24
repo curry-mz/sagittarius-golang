@@ -128,6 +128,9 @@ func (e *Engine) handleHTTPRequest(c *Context) {
 	method := c.r.Method
 	path := c.r.URL.Path
 	if method == "OPTIONS" {
+		c.Request().Header.Set("Access-Control-Allow-Origin", "*")                                // 允许所有域名访问
+		c.Request().Header.Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS") // 允许的请求方法
+		c.Request().Header.Set("Access-Control-Allow-Headers", "Content-Type, Authorization")
 		c.Writer().WriteHeader(http.StatusOK)
 		return
 	}
