@@ -131,6 +131,7 @@ func (e *Engine) handleHTTPRequest(c *Context) {
 		c.w.Header().Set("Access-Control-Allow-Origin", "*")                                // 允许所有域名访问
 		c.w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS") // 允许的请求方法
 		c.w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization")
+		c.w.Header().Set("Referrer-Policy", "strict-origin-when-cross-origin")
 		c.Writer().WriteHeader(http.StatusOK)
 		return
 	}
